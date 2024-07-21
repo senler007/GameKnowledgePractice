@@ -1,0 +1,5 @@
+﻿Source.obj : error LNK2019: unresolved external symbol "public: int __cdecl GameLib::Framework::width(void)const " (?width@Framework@GameLib@@QEBAHXZ) referenced in function "public: void __cdecl GameLib::Framework::update(void)" (?update@Framework@GameLib@@QEAAXXZ)
+Source.obj : error LNK2019: unresolved external symbol "public: unsigned int * __cdecl GameLib::Framework::videoMemory(void)" (?videoMemory@Framework@GameLib@@QEAAPEAIXZ) referenced in function "public: void __cdecl GameLib::Framework::update(void)" (?update@Framework@GameLib@@QEAAXXZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\GameLib\2DGraphics1\lib\GameLib_d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Github\GamePractice\BoxMoving2\PicturePractice\x64\Debug\PicturePractice.exe : fatal error LNK1120: 3 unresolved externals
